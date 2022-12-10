@@ -1,0 +1,424 @@
+/*hero*/
+.container{
+	background-image: url(images/hero-decore-image.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+
+}
+body{
+	margin:0;
+}
+.hero__nav {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	margin-top: 47px;
+	margin-left: 140.92px;
+}
+
+.hero__nav .logo {
+	width: 114.91px;
+	height: 33.99px;
+}
+
+.hero .hero__nav ul {
+	list-style-type: none;
+	height: 40px;
+	margin-left: 25px;
+}
+
+.hero .hero__nav ul li {
+	display: inline;
+    height: 22px; 
+    font-family: "Google Sans";
+    font-size: 17px;
+	padding: 40px ;
+}
+.hero__content{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 1200.87px;
+	height: 764px;
+	margin-top: 105px;
+	margin-left: 148px;
+}
+.hero__content-image{
+	width: 765px;
+	height: 764px;
+}
+.hero__content-des{
+	width: 630px;
+	height: 535px;
+	top: 217px;
+	left: 148px;
+	
+}
+
+.hero__content___cta{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 379px;
+	height: 60px;
+
+}
+
+.hero .hero__content .hero__content-des h3{
+	font-size: 20px;
+	font-family: Poppins;
+	color: #DF6951;
+}
+.hero .hero__content .hero__content-des h1{
+	font-size: 84px;
+	font-family: Volkhov;
+	color: #181E4B;
+}	
+.hero .hero__content .hero__content-des p{
+	font-size: 16px;
+	font-family: Poppins;
+	width: 477px;
+	height: 90px;
+	color: #5E6282;
+}	
+
+.hero .hero__content .hero__content-des .hero__content___cta button{
+	background-color: #F1A501;
+	padding-left: 27px;
+	padding-right: 26px;
+	padding-top: 19px;
+	padding-bottom: 18px;
+	border: 2px solid #F1A501;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 170px;
+	height: 60px;
+	color: #FFFFFF;
+
+}
+.hero__content___cta____play-demo{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 165px;
+	height: 104px;
+	margin-left: 44px;
+}
+.hero .hero__content .hero__content-des .hero__content___cta .hero__content___cta____play-demo img{
+	width: 70px;
+	height: 104px;
+}
+.hero .hero__content .hero__content-des .hero__content___cta .hero__content___cta____play-demo span{
+    width:92px;
+    height: 52px;
+    margin-left: 21px;
+    font-size: 17px;
+    font-family: Volkhov;
+    margin-bottom: 26px;
+    margin-top: 23px;
+    color: #686D77;
+}
+.hero .hero__nav ul .sign-up{
+    border: 1.5px solid #212832;
+    border-radius: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+/*services*/
+.services{
+	width: 1228px;
+	height: 525px;
+	margin-left: 154px;
+	margin-right: 58px;
+}
+.services__category{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	
+}
+.services__title-h3{
+	width: 98px;
+	height: 27px;
+	font-size: 18px;
+	font-family: Poppins;
+	margin: auto;
+	color: #5E6282;
+}
+
+.services__title-h2{
+	width: 747px;
+	height: 65px;
+	font-size: 50px;
+	font-family: Volkhov;
+	margin: auto;
+	margin-bottom: 66.09px;
+	color: #14183E;
+}
+.services__category___calculated-weather{
+	width: 190px;
+	height: 227px;
+	text-align: center;
+}
+.services__category___best-flights{
+	width: 267px;
+	height: 314px;
+	margin-left: 73px;
+	text-align: center;
+	margin-top: -50px;
+
+}
+.services__category___local-events{
+	width: 181px;
+	height: 229px;
+	margin-left: 179px;
+	text-align: center;
+}
+.services__category___customization{
+	width: 181px;
+	height: 216px;
+	margin-left: 210px;
+	text-align: center;
+}
+.services__category___calculated-weather-image{
+	width: 92px;
+	height: 78px;
+	padding-bottom: 29px;
+	margin-bottom: 29px;
+	margin-left: 53px;
+}
+
+.services__category___best-flights-image{
+	width: 166.87px;
+	height: 153.33px;
+	padding-bottom: 24.57px;
+	margin-bottom: 24.57px;
+	margin-left: 49px;
+}
+.services__category___local-events-image{
+	width: 67px;
+	height: 75px;
+	padding-bottom: 34px;
+	margin-bottom: 34px;
+	margin-left: 66px;
+}
+.services__category___customization-image{
+	width: 77px;
+	height: 66px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+    margin-left: 63px;
+}
+/*destinations*/
+.destinations{
+	width: 1450px;
+	height: 617px;
+	margin-left: 100px;
+}
+.destinations__titile-h4{
+	width: 100px;
+	height: 27px;
+	font-size: 18px;
+	font-family: Poppins;
+	margin: auto;
+	color: #5E6282;
+}
+.destinations__titile-h2{
+	width: 718px;
+	height: 65px;
+	font-size: 50px;
+	font-family: Volkhov;
+	margin: 0px auto;
+	margin-bottom: 60px;
+	color: #14183E;
+}
+.destinations__country{
+	display: grid;
+	grid-template-columns: 30% 30% 30% 10%;
+}
+.destinations__country___rome-italy-image{
+	width: 314px;
+	height: 457px;
+}
+.destinations__country___rome-italy____line-1{
+	display: grid;
+	grid-template-columns: 50% auto;
+	width: 314px;
+	height: 130px;
+	margin-left: 90px;
+	padding-top: 20px;
+}
+.destinations__country___rome-italy____line-2{
+	width: 314px;
+	height: 20px;
+	margin-left: 90px;
+	margin-top: -100px;
+
+}
+.destinations__country___london-uk-image{
+	width: 314px;
+	height: 457px;
+}
+.destinations__country___london-uk____line-1{
+	display: grid;
+	grid-template-columns: 50% auto;
+	width: 314px;
+	height: 130px;
+	margin-left: 90px;
+	padding-top: 20px;
+}
+.destinations__country___london-uk____line-2{
+	width: 314px;
+	height: 20px;
+	margin-left: 90px;
+	margin-top: -100px;
+
+}
+.destinations__country___full-europe-image{
+	width: 314px;
+	height: 457px;
+	
+}
+.destinations__country___full-europe{
+	background-image: url("./images/destinations-decore.png");
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.destinations__country___full-europe____line-1{
+	display: grid;
+	grid-template-columns: 50% auto;
+	width: 314px;
+	height: 130px;
+	margin-left: 90px;
+	padding-top: 20px;
+}
+.destinations__country___full-europe____line-2{
+	width: 314px;
+	height: 20px;
+	margin-left: 90px;
+	margin-top: -100px;
+}
+.book-a-trip{
+	display: grid;
+	grid-template-columns: 50% auto;
+	width: 1114px;
+	height: 492px;
+	margin-left: 186px;
+	margin-top: 300px;
+}
+.book-a-trip__images{
+	width: 485px;
+	height: 459px;
+	padding-top: 100px;
+	margin-left: 186px;
+	/*background-image: linear-gradient(90deg, rgba( 224,255,255, 0),rgba( 175,238,238, 0.5),rgba( 224,255,255, 0));*/
+	background-image: radial-gradient(rgba(127,255,212, 1),rgba(224,255,255, 0.5),white);
+
+}
+.book-a-trip__images___image1{
+	background-color: white;
+	width: 370px;
+	height: 400px;
+	position: relative;
+	z-index: 1;
+	border: 2px none red;
+    border-radius: 25px;
+}
+.book-a-trip__images___image2{
+	background-color: white;
+	width: 263px;
+	height: 129px;
+	position: absolute;
+	z-index: 2;
+	left: 222px;
+	bottom: 22px;
+}
+.book-a-trip .book-a-trip__content h2{
+	width: 511px;
+	height: 130px;
+	color: 14183E;
+	font-family: Volkhov;
+	font-size: 50px;
+}
+.book-a-trip__content___values{
+	width: 395px;
+	height: 289px;
+}
+.book-a-trip__content___values____value1, .book-a-trip__content___values____value2, .book-a-trip__content___values____value3{
+	display: grid;
+	grid-template-columns: 30% auto;
+	margin-top: 48px;
+
+}
+.book-a-trip__content___values____value1_____content, .book-a-trip__content___values____value2_____content, .book-a-trip__content___values____value3_____content{
+	width: 395px;
+	height: 64px;
+}
+.book-a-trip .book-a-trip__content .book-a-trip__content___values img{
+	margin-top: 20px;
+}
+.book-a-trip .book-a-trip__images .book-a-trip__images___image1 img {
+	margin-top: 30px;
+}
+
+/*testimonials-section*/
+.testimonials-section{
+	display: grid;
+	grid-template-columns: 50% auto;
+	width: 1165px;
+	height: 356px;
+	margin-top: 250px;
+	margin-left: 186px;
+}
+.testimonials-section .testimonials-section__title h2{
+	width: 409px;
+	height: 130px;
+	font-family: Volkhov;
+	font-size: 50px;
+}
+/*.testimonials-section__group64{
+	width: 669px;
+	height: 356px;
+
+}
+.testimonials-section__group64___group1{
+	margin-left: 34px;
+	position: relative;
+	width: 541px;
+	height: 150px;
+	border-color: red;
+	background-color: red;
+	z-index: 0;
+	border: 1px solid #F7F7F7;
+	margin-bottom: -50px;
+
+}
+.testimonials-section__group64___group2{
+	left: 87px;
+	position: absolute;
+	margin-top: -70px;
+	padding-top: 70px;
+	width: 502px;
+	height: 132px;
+	background-image: linear-gradient(180deg, rgba( 220, 220, 220, 0),rgba( 220, 220, 220, 0.5));
+	background-color: yellow;
+	z-index: -1;
+	border: 1px solid #F7F7F7;
+}
+/* ko chạy*/
+/*.testimonials-section .testimonials-section__title .testimonials-section__group64 .testimonials-section__group64___group1 .title1{
+	width: 402px;
+	height: 96px;
+	color: red;
+
+}*/
+
+
+
+/*subscribe-section*/
+.subscribe-section{
+	width: 1356px;
+	height: 490px;
+	background-image: url(images/mask-image-1.png), url(images/mask-image-2.png),linear-gradient(90deg, rgba( 220, 220, 220, 0.5),rgba( 220, 220, 220, 0.5));
+	margin-top: 3834px;
+	margin-left: 48px;
+	background-repeat: no-repeat;
+    background-position: bottom left, top right;
+}
+
